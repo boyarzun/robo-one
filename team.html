@@ -183,21 +183,21 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">
-            <form class="input-transparent">
+          <div id="contactForm" class="modal-body">
+            <form method="POST" onsubmit="sendContactForm(event)" class="input-transparent">
               <div class="form-row">
                 <div class="form-group col-md-6">
-                  <input class="form-control form-control-lg" type="text" name="name" placeholder="Nombre" required>
+                  <input class="form-control form-control-lg" id="contactName" type="text" name="name" placeholder="Nombre" required>
                 </div>
                 <div class="form-group col-md-6">
-                  <input class="form-control form-control-lg" type="email" name="email" placeholder="E-mail" required>
+                  <input class="form-control form-control-lg" id="contactEmail" type="email" name="email" placeholder="E-mail" required>
                 </div>
               </div>
               <div class="form-group">
-                <input type="text" class="form-control border-secondary" name="subject" placeholder="Asunto" required>
+                <input type="text" class="form-control border-secondary" id="contactSubject" name="subject" placeholder="Asunto" required>
               </div>
               <div class="form-group">
-                <textarea class="form-control form-control-lg" rows="4" placeholder="Mensaje..." name="message" required></textarea>
+                <textarea class="form-control form-control-lg" id="contactMessage" rows="4" placeholder="Mensaje..." name="message" required></textarea>
               </div>
               <div class="form-group mt-6">
                 <button class="btn btn-block btn-warning" type="submit">Enviar</button>

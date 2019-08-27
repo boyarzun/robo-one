@@ -301,3 +301,34 @@ NioApp = function (NioApp, $, window, document) {
 
 	return NioApp;
 }(NioApp, jQuery, window, document);
+
+function sendContactForm(event) {
+	event.preventDefault();
+	const name = document.getElementById("contactName").value;
+	const email = document.getElementById("contactEmail").value;
+	const subject = document.getElementById("contactSubject").value;
+	const message = document.getElementById("contactMessage").value;
+	const data = {
+		name,
+		email,
+		subject,
+		message
+	}
+
+	document.getElementById("contactForm").innerHTML = '<div class="text-center"><img src="assets/img/preloader.svg" /></div>'
+
+	fetch("https://1du9fiz6ck.execute-api.us-east-2.amazonaws.com/prod/contact", {
+		method: 'POST',
+		body: JSON.stringify(data),
+		headers:{
+		  'Content-Type': 'application/x-www-form-urlencoded'
+		}
+	  })
+	.then(function(response){
+		return response.json();
+	})
+	.then(function(res){
+		document.getElementById("contactForm").innerHTML = '<p>Tu mensaje ha sido enviado</p>';
+	})
+
+}
