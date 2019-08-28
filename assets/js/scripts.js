@@ -317,7 +317,7 @@ function sendContactForm(event) {
 
 	document.getElementById("contactForm").innerHTML = '<div class="text-center"><img src="assets/img/preloader.svg" /></div>'
 
-	fetch("https://1du9fiz6ck.execute-api.us-east-2.amazonaws.com/prod/contact", {
+	fetch("https://hy4fbpvyb7.execute-api.us-east-1.amazonaws.com/prod/contact", {
 		method: 'POST',
 		body: JSON.stringify(data),
 		headers:{
