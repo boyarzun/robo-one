@@ -319,9 +319,9 @@ function sendContactForm(event) {
 
 	fetch("https://hy4fbpvyb7.execute-api.us-east-1.amazonaws.com/prod/contact", {
 		method: 'POST',
-		body: JSON.stringify(data),
+		body: data,
 		headers:{
-		  'Content-Type': 'application/x-www-form-urlencoded'
+		  'Content-Type': 'application/json'
 		}
 	  })
 	.then(function(response){
