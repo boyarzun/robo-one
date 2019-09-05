@@ -1846,3 +1846,15 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
 .slick-arrow.slick-hidden {
   display: none;
 }
+
+.learn-more {
+  margin: 15px 0px;
+}
+
+.learn-more i {
+  font-size: 40px;
+}
+
+.learn-more span {
+  vertical-align: super;
+}
