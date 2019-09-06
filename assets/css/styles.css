@@ -934,9 +934,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a {
   font-size: 0.75rem;
   color: #17a2b8; }
   .readmore-btn:after {
-    content: '+ Read More'; }
+    content: '+ Mostrar'; }
   .readmore-btn:not(.collapsed):after {
-    content: '- Show Less'; }
+    content: '- Ocultar'; }
 
 /* Tag-list */
 .tag-list {
