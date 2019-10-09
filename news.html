@@ -72,7 +72,7 @@
       <!-- /.Overlay -->
 
       <!-- Start Content Area -->
-      <div class="content-section news-section carousel-spotlight ig-carousel text-light">
+      <div class="mt-10 text-light">
         <div class="container">
           <header class="header">
             <h2>Noticias</h2>
@@ -220,7 +220,41 @@
         </div>  
       </div>
       <!-- /.End Content Area -->
-
+      <!-- Start Content Area -->
+      <section class="latest-articles text-center text-light mb-5">
+        <div class="container">
+          <header class="section-header">
+            <h2>Partners</h2>
+            <hr class="w-10 border-top-2 border-warning o-80">
+          </header>
+          <div class="row">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="partners">
+                            <div class="slide"><a rel="noopener noreferrer" href="http://www.duoc.cl/inicio" target="_blank"><img src="assets/img/avatar/duoc-uc.png" alt="DUOC"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.fundaciontelefonica.cl/" target="_blank"><img src="assets/img/avatar/fundacion-telefonica.png" alt="Telefónica"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.innovarock.cl/" target="_blank"><img src="assets/img/avatar/innovarock.png" alt="Innovarock"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.pucv.cl/" target="_blank"><img src="assets/img/avatar/pucv.png" alt="PUCV"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.radiodemente.cl/" target="_blank"><img src="assets/img/avatar/radio-demente.png" alt="Radio Demente"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="http://www.roboticslab.cl/" target="_blank"><img src="assets/img/avatar/roboticslab.png" alt="Robotics Lab"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://rotatecno.com/" target="_blank"><img src="assets/img/avatar/rotatecno.png" alt="Rotatecno"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.tvn.cl/" target="_blank"><img src="assets/img/avatar/tvn.png" alt="TVN"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.uach.cl/" target="_blank"><img src="assets/img/avatar/universidad-austral-de-chile.png" alt="Universidad Austral de Chile"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.usach.cl/" target="_blank"><img src="assets/img/avatar/usach.png" alt="USACH"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="http://www.ust.cl/" target="_blank"><img src="assets/img/avatar/ust.png" alt="UST"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.utem.cl/" target="_blank"><img src="assets/img/avatar/utem.png" alt="UTEM"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.8dot8.org/cl" target="_blank"><img src="assets/img/avatar/8dot8.png" alt="8dot8"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="http://biped-robot.or.jp/" target="_blank"><img src="assets/img/avatar/bra.png" alt="Biped Robot Association"></a></div>
+                            <div class="slide"><img src="assets/img/avatar/chile-desarrollo.png" alt="Chile Desarrollo"></div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Content Area -->
     </main>
 
     <!-- footer -->
@@ -228,7 +262,7 @@
         <div class="container">
             <div class="row gutters-y">
                 <div class="col-6 col-lg-6">
-                  <a href="#" class="logo d-block mb-4"><img src="assets/img/logo.png" alt="Robo One" class="logo-dark"></a>
+                  <a href="index.html" class="logo d-block mb-4"><img src="assets/img/logo.png" alt="Robo One" class="logo-dark"></a>
                   <p>Robo-One® es un programa de Biped Robot Association, Yokohama, Japón. Todos los derechos reservados.</p>
                   <div class="social-buttons">
                     <a class="social-facebook" href="https://www.facebook.com/roboonelatinoamerica" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -304,6 +338,9 @@
     <!-- jQuery -->
     <script src="assets/js/jquery.min.js"></script>
 
+    <!-- Slick -->
+    <script src="assets/js/slick.js"></script>
+
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
 
@@ -313,5 +350,29 @@
     <!-- Main JS -->
     <script src="assets/js/main.js" id="_mainJS" data-plugins="load"></script>
     <script src="assets/js/news.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.partners').slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1000,
+          arrows: true,
+          dots: false,
+            pauseOnHover: false,
+            responsive: [{
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3
+            }
+          }, {
+            breakpoint: 520,
+            settings: {
+              slidesToShow: 2
+            }
+          }]
+        });
+      });
+    </script>
   </body>
 </html>
