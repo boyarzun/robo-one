@@ -376,8 +376,10 @@
     <script>
         let newId = getUrlParam('id')
         let fetchUrl = 'https://dashboard.robo-one.cl/news/' + newId + '/api'
-
-        fetch(fetchUrl)
+        let fetchOptions = {
+            method: 'POST'
+        }
+        fetch(fetchUrl, fetchUrl)
         .then(response => response.json())
         .then(element => {
             let date = new Date(element.created)
