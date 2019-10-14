@@ -377,10 +377,7 @@
         let newId = getUrlParam('id')
         let fetchUrl = 'https://dashboard.robo-one.cl/news/' + newId + '/api'
         let fetchOptions = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            method: 'POST'
         }
         fetch(fetchUrl, fetchOptions)
         .then(response => response.json())
