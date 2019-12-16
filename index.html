@@ -473,6 +473,27 @@
     </div>
     <!-- /.contact -->
 
+    <!-- new -->
+    <div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="newTitle" aria-hidden="true">
+        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+          <div class="modal-content bg-dark">
+            <div class="modal-header border-secondary">
+              <h5 class="modal-title text-warning" id="newTitle">¡Atención!</h5>
+              <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div style="text-align: center;">
+                  <a href="http://ia13.cl/streaming" target="_blank" rel="noopener noreferrer"><img src="assets/img/streaming.png" width="100%"></a>
+                </div>
+                <p>Se ha cambiado la fecha de la competencia al Sábado 21 de diciembre. Revisa nuestra transmisión streaming.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- /.new -->
+
     <!-- jQuery -->
     <script src="assets/js/jquery.min.js"></script>
 
@@ -517,6 +538,11 @@
           }]
         });
       });
+    </script>
+    <script>
+      $(document).ready(
+        $('#newModal').modal('show')
+      )
     </script>
   </body>
 </html>
