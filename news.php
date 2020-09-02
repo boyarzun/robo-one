@@ -2,77 +2,12 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="robo, one, competencia, robótica, educativa, robots, bípedo" />
-    <meta name="description" content="Robo One es una competencia avanzada de robótica bípeda humanoide, nacida en Japón que requiere destreza y conocimiento, enfocada al desarrollo de la robótica bípeda en el mundo.">
-    <title>Noticias | ROBO-ONE Latinoamérica</title>
-    <meta property="og:locale" content="es"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Noticias | Robo One"/>
-    <meta property="og:description" content="Robo One es una competencia avanzada de robótica bípeda humanoide, nacida en Japón que requiere destreza y conocimiento, enfocada al desarrollo de la robótica bípeda en el mundo."/>
-    <meta property="og:site_name" content="Robo One"/>
-    <meta property="og:url" content="https://www.robo-one.cl"/>
-    <meta property="og:image" content="https://robo-one.cl/assets/img/og_image.jpg"/>
-    <link href="assets/css/fonts/etline-font.min.css" rel="stylesheet">
-    <link href="assets/css/fonts/fontawesome/all.min.css" rel="stylesheet">
-    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
-    <link href="assets/css/fonts/themify-icons.css" rel="stylesheet">
-    <link href="assets/plugins/owl.carousel/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" href="assets/img/favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150051062-1"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-150051062-1');
-    </script>
-
+  <title>Noticias | ROBO-ONE Latinoamérica</title>
+  <?php require('structure/head.php') ?>
   </head>
   <body class="page-body">
 
-    <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-nav">
-        <div class="container">
-          <a class="navbar-brand align-items-center logo" href="/index">
-            <img src="assets/img/logo.png" alt="Robo One" class="logo-light mx-auto">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">☰</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="nav navbar-nav ml-lg-auto">
-              <li class="nav-item"><a class="nav-link mr-2" href="/index">Inicio</a></li>
-              <!--<li class="nav-item"><a class="nav-link mr-2" href="teams.html">Equipos</a></li>-->
-              <li class="nav-item"><a class="nav-link mr-2" href="/calendar">Calendario</a></li>
-              <li class="nav-item"><a class="nav-link mr-2" href="/awards">Premios</a></li>
-              <li class="nav-item active"><a class="nav-link mr-2" href="/news">Noticias</a></li>
-              <li class="nav-item dropdown dropdown-hover">
-                  <a class="nav-link dropdown-toggle" href="/learn" id="dropdownGaming_community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aprende más </a>
-                  <div class="dropdown-menu dropdown-menu-dark-lg" aria-labelledby="dropdownGaming_community">
-                    <a class="dropdown-item" href="/about">Acerca de la competencia</a>
-                    <a class="dropdown-item" href="/learn">Prepararse para la competencia</a>
-                    <a class="dropdown-item" href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank">Bases de la competencia</a>
-                    <a class="dropdown-item" href="https://files.robo-one.cl/file/robo-one/Te%CC%81rminos+de+participacio%CC%81n+ROBO-ONE+LATINOAMERICA+2019.pdf" target="_blank">Términos de participación</a>
-                  </div>
-                </li>
-              <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a></li>
-              <li class="nav-item"><div class="nav-link mr-2"><a class="btn btn-sm btn-warning text-secondary mr-2" href="https://docs.google.com/forms/d/1UfHcaDh6Mchan0FH7g1oT1oJ4CJrB1C6-kHsw1evslU/edit" rel="noopener noreferrer">Inscripción</a></div></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- /.End Navbar -->
+  <?php require('structure/nav_bar.php'); ?>
 
     <!-- Start Main Content -->
     <main class="main-content gradient-lg position-relative">
@@ -267,48 +202,7 @@
       <!-- End Content Area -->
     </main>
 
-    <!-- footer -->
-    <footer class="footer footer-dark bg-dark py-9">
-        <div class="container">
-            <div class="row gutters-y">
-                <div class="col-6 col-lg-6">
-                  <a href="/index" class="logo d-block mb-4"><img src="assets/img/logo.png" alt="Robo One" class="logo-dark"></a>
-                  <p>Robo-One® es un programa de Biped Robot Association, Yokohama, Japón. Todos los derechos reservados.</p>
-                  <div class="social-buttons">
-                    <a class="social-facebook" href="https://www.facebook.com/roboonelatinoamerica" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
-                    <a class="social-instagram" href="https://www.instagram.com/robo_one_latinoamerica/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
-                  </div>
-                </div>
-  
-                <div class="col-6 col-lg-2">
-                  <h6 class="text-uppercase fw-600 mb-4">Acerca de</h6>
-                  <div class="nav flex-column">
-                    <a class="nav-link" href="/about">Evento</a>
-                    <a class="nav-link" href="/news">Noticias</a>
-                  </div>
-                </div>
-  
-                <div class="col-6 col-lg-2">
-                  <h6 class="text-uppercase fw-600 mb-4">Competencia</h6>
-                  <div class="nav flex-column">
-                    <!--<a class="nav-link" href="teams.html">Equipos</a>-->
-                    <a class="nav-link" href="/awards">Premios</a>
-                    <a class="nav-link" href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank">Bases</a>
-                    <a class="nav-link" href="https://files.robo-one.cl/file/robo-one/Te%CC%81rminos+de+participacio%CC%81n+ROBO-ONE+LATINOAMERICA+2019.pdf" target="_blank">Términos</a>
-                  </div>
-                </div>
-  
-                <div class="col-6 col-lg-2">
-                  <h6 class="text-uppercase fw-600 mb-4">Ayuda</h6>
-                  <div class="nav flex-column">
-                    <a class="nav-link" href="faq.html">FAQ</a>
-                    <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a>
-                  </div>
-                </div>
-            </div>
-        </div>
-      </footer>
-      <!-- /.footer -->
+    <?php require('structure/footer.php') ?>
   
       <!-- Contact -->
       <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="userLoginTitle" aria-hidden="true">
@@ -346,44 +240,7 @@
       </div>
       <!-- /.contact -->
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery.min.js"></script>
-
-    <!-- Slick -->
-    <script src="assets/js/slick.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- User JS -->
-    <script src="assets/js/scripts.js"></script>
-
-    <!-- Main JS -->
-    <script src="assets/js/main.js" id="_mainJS" data-plugins="load"></script>
+    <?php require('structure/scripts.php') ?>
     <script src="assets/js/news.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.partners').slick({
-          slidesToShow: 4,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 1000,
-          arrows: true,
-          dots: false,
-            pauseOnHover: false,
-            responsive: [{
-            breakpoint: 768,
-            settings: {
-              slidesToShow: 3
-            }
-          }, {
-            breakpoint: 520,
-            settings: {
-              slidesToShow: 2
-            }
-          }]
-        });
-      });
-    </script>
   </body>
 </html>
