@@ -120,6 +120,335 @@
 
     <!-- Start Main Content -->
     <main class="main-content">
+      <!-- Start Content Area -->
+      <section class="content-section owl-carousel-spotlight carousel-spotlight ig-carousel text-light" style="background-image: url(assets/img/bg/bg_shape.png);">
+        <div class="container">
+          <header class="header">
+            <h2>Resultados Robo One Latino América 2019</h2>
+          </header>
+          <div class="position-relative">
+            <!-- nav tabs -->
+            <ul class="spotlight-tabs spotlight-tabs-dark nav nav-tabs border-0 mb-5 position-relative text-nwp flex-nowrap" id="most_popular_products-carousel" role="tablist">
+              <li class="nav-item text-fnwp pg-none relative">
+                <a class="nav-link active" id="mp-01-tab" data-toggle="tab" href="#mp-01-c" role="tab" aria-controls="mp-01-c" aria-selected="true">Ganadores</a>
+              </li>
+              <li class="nav-item text-fnwp relative">
+                <a class="nav-link" id="mp-02-tab" data-toggle="tab" href="#mp-02-c" role="tab" aria-controls="mp-02-c" aria-selected="false">Equipos</a>
+              </li>
+            </ul>
+            <!-- tab panes -->
+            <div id="color_sel_Carousel-content" class="tab-content fl-scn relative w-100">
+
+              <!-- tab item -->
+              <div class="tab-pane fade show active" id="mp-01-c" role="tabpanel" aria-labelledby="mp-01-tab">
+                <div class="owl-carousel gs-carousel" data-carousel-margin="30" data-carousel-nav="true" data-carousel-navText="<span class='icon-cl-next pe-7s-angle-left'></span>, <span class='icon-cl-next pe-7s-angle-right'></span>">
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Error 404">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Error 404</a></h5>
+                            <div class="relative small-1">
+                              <span class="owl_item_price">1° Lugar</span>
+                              <span class="owl_item_genre">
+                                PLR-52
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Chilenobis">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Chilenobis</a></h5>
+                            <div class="relative small-1">
+                              <span class="owl_item_price">2° Lugar</span>
+                              <span class="owl_item_genre">
+                                1N0ZUK3
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Majutsu Shi">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Majutsu Shi</a></h5>
+                            <div class="relative small-1">
+                              <span class="owl_item_price">3° Lugar</span>
+                              <span class="owl_item_genre">
+                                MAHO SHOJO
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Master chun">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Master chun</a></h5>
+                            <div class="relative small-1">
+                              <span class="owl_item_price">Design Award</span>
+                              <span class="owl_item_genre">
+                                Mr. MELI CHUN
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="8dot8">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">8dot8</a></h5>
+                            <div class="relative small-1">
+                              <span class="owl_item_price">Innovation Award</span>
+                              <span class="owl_item_genre">
+                                NETGREY
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- tab item -->
+              <div class="tab-pane fade" id="mp-02-c" role="tabpanel" aria-labelledby="mp-02-tab">
+                <div class="owl-carousel gs-carousel" data-carousel-margin="30" data-carousel-nav="true" data-carousel-navText="<span class='icon-cl-next pe-7s-angle-left'></span>, <span class='icon-cl-next pe-7s-angle-right'></span>">
+                <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="CITTCCP">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">CITTCCP</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Masters chun">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Masters chun</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Dadiroros">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Dadiroros</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Factory Error">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Factory Error</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Majutsu Shi">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Majutsu Shi</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Error 404">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Error 404</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Buena onda dinamita escuadron a fa obo">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Buena onda dinamita escuadron a fa obo</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Chi enobis">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Chi enobis</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Masa senseis">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Masa senseis</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="8dot8">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">8dot8</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Los giros sin torni os">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Los giros sin torni os</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Va  ha a">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Va  ha a</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="O ympus">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">O ympus</a></h5>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>  
+      </section>
 
       <!-- Start Content Area -->
       <section class="section gs_features">
