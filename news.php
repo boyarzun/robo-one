@@ -241,6 +241,6 @@
       <!-- /.contact -->
 
     <?php require('structure/scripts.php') ?>
-    <script src="assets/js/news.js"></script>
+    <script src="assets/js/newsV3.js"></script>
   </body>
 </html>

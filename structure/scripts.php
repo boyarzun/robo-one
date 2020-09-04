@@ -12,6 +12,10 @@
 
 <!-- Main JS -->
 <script src="assets/js/main.js" id="_mainJS" data-plugins="load"></script>
+
+<!-- Axios -->
+<script src="assets/js/axios.min.js"></script>
+
 <!--
 <script type="text/javascript">
   $(document).ready(function() {

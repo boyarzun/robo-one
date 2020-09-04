@@ -242,6 +242,25 @@
                       </figure>
                     </div>
                   </div>
+                  <div class="item">
+                    <div class="item-cont">
+                      <figure class="owl_item_review">
+                        <div>
+                          <div class="position-relative overflow-hidden">
+                            <img class="m-0-auto" src="assets/img/profile.webp" alt="Masters Chun">
+                          </div>
+                          <div>
+                            <h5 class="owl_item_title text-lt"><a href="#">Masters Chun (MR. MELI CHUN)</a></h5>
+                            <div class="relative small-1">
+                              <span class="owl_item_price">Robotics Lab Scl Award</span>
+                              <span class="owl_item_genre">
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                      </figure>
+                    </div>
+                  </div>
                 </div>
               </div>
 
@@ -517,43 +536,7 @@
           <header class="header text-left">
             <h2 class="mb-6">Anuncios</h2>
           </header>
-          <div class="row">
-            <!-- Post -->
-            <div class="col-12 mb-8">
-              <div class="row">
-                <div class="col-lg-4 mb-6 mb-lg-0">
-                  <div class="card">
-                    <div class="img__news_wrapper"><img src="assets/img/content/img_02.jpg" alt="News"></div>
-                  </div>
-                </div>
-                <div class="col-lg-8">
-                  <h4 class="text-uppercase mb-3"><a href="https://files.robo-one.cl/file/robo-one/Te%CC%81rminos+de+participacio%CC%81n+ROBO-ONE+LATINOAMERICA+2019.pdf" target="_blank">Términos de participación</a></h4>
-                  <div class="mb-3 small text-info">
-                    <span><i class="fas fa-calendar-alt mr-1"></i> 9-10-2019</span>
-                  </div>
-                  <p>Al registrar jugadores en este sitio, debe leer los términos y condiciones completos y aceptar estos términos. Además, cuando participe en competencias, observe las reglas y las precauciones de la competencia.</p>
-                  <a href="https://files.robo-one.cl/file/robo-one/Te%CC%81rminos+de+participacio%CC%81n+ROBO-ONE+LATINOAMERICA+2019.pdf" target="_blank" class="btn btn-outline-light">Leer más</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 mb-8">
-              <div class="row">
-                <div class="col-lg-4 mb-6 mb-lg-0">
-                  <div class="card">
-                    <div class="img__news_wrapper"><img src="assets/img/content/img_01.jpg" alt="News"></div>
-                  </div>
-                </div>
-                <div class="col-lg-8">
-                  <h4 class="text-uppercase mb-3"><a href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank">Reglas de la competencia</a></h4>
-                  <div class="mb-3 small text-info">
-                    <span><i class="fas fa-calendar-alt mr-1"></i> 1-06-2019</span>
-                  </div>
-                  <p>Reglas de la competencia ROBO-ONE actualizada a Junio 2019.  Las bases están sujetas cada año a actualizaciones y mejoras. Debe mantenerse atento a las modificaciones que se irán informando directamente en este lugar.</p>
-                  <a href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank" class="btn btn-outline-light">Leer más</a>
-                </div>
-              </div>
-            </div>
-
+          <div class="row" id="posts">
           </div>
         </div>
       </section>
@@ -716,6 +699,7 @@
     <!-- /.new -->
 
     <?php require('structure/scripts.php') ?>
+    <script src="assets/js/index.js"></script>
 	  <!--
     <script>
       $(document).ready(
