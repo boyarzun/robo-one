@@ -3,7 +3,7 @@ document.getElementById("news-content").innerHTML = '<div style="margin: 0 auto;
 var posts = document.getElementById('news-content');
 
 axios
-    .get('https://dash.robo-one.la/wp-json/wp/v2/posts')
+    .get('https://dash.robo-one.la/wp-json/wp/v2/posts?categories=2,5')
     .then(function (response) {
         document.getElementById("news-content").innerHTML = '';
         response.data.forEach(function (element) {
