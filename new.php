@@ -4,6 +4,7 @@
 <head>
   <title>Noticias | ROBO-ONE Latinoamérica</title>
   <?php require('structure/head.php') ?>
+  <link href="assets/css/gallery/view.css" rel="stylesheet">
   <script src="assets/js/utils.js"></script>
 </head>
 
@@ -76,8 +77,8 @@
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="/about" class="badge badge-warning mb-2">Descubre</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/about">¿Quieres conocer el
+                            <div class="lh-1"><a href="/about.php" class="badge badge-warning mb-2">Descubre</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/about.php">¿Quieres conocer el
                                 evento?</a></h6>
                           </div>
                         </div>
@@ -145,8 +146,8 @@
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="faq.html" class="badge badge-secondary mb-2">FAQ</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="faq.html">Revisa nuestra lista de
+                            <div class="lh-1"><a href="faq.php" class="badge badge-secondary mb-2">FAQ</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="faq.php">Revisa nuestra lista de
                                 preguntas frecuentes</a></h6>
                           </div>
                         </div>
@@ -163,56 +164,7 @@
     </div>
     <!-- End Content Area -->
 
-    <!-- Start Content Area -->
-    <section class="latest-articles text-center text-light mb-5">
-      <div class="container">
-        <header class="section-header">
-          <h2>Partners</h2>
-          <hr class="w-10 border-top-2 border-warning o-80">
-        </header>
-        <div class="row">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="partners">
-                  <div class="slide"><a rel="noopener noreferrer" href="http://www.duoc.cl/inicio" target="_blank"><img
-                        src="assets/img/avatar/duoc-uc.png" alt="DUOC"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.fundaciontelefonica.cl/"
-                      target="_blank"><img src="assets/img/avatar/fundacion-telefonica.png" alt="Telefónica"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.innovarock.cl/" target="_blank"><img
-                        src="assets/img/avatar/innovarock.png" alt="Innovarock"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.pucv.cl/" target="_blank"><img
-                        src="assets/img/avatar/pucv.png" alt="PUCV"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.radiodemente.cl/"
-                      target="_blank"><img src="assets/img/avatar/radio-demente.png" alt="Radio Demente"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="http://www.roboticslab.cl/" target="_blank"><img
-                        src="assets/img/avatar/roboticslab.png" alt="Robotics Lab"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://rotatecno.com/" target="_blank"><img
-                        src="assets/img/avatar/rotatecno.png" alt="Rotatecno"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.tvn.cl/" target="_blank"><img
-                        src="assets/img/avatar/tvn.png" alt="TVN"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.uach.cl/" target="_blank"><img
-                        src="assets/img/avatar/universidad-austral-de-chile.png" alt="Universidad Austral de Chile"></a>
-                  </div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.usach.cl/" target="_blank"><img
-                        src="assets/img/avatar/usach.png" alt="USACH"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="http://www.ust.cl/" target="_blank"><img
-                        src="assets/img/avatar/ust.png" alt="UST"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.utem.cl/" target="_blank"><img
-                        src="assets/img/avatar/utem.png" alt="UTEM"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="https://www.8dot8.org/cl" target="_blank"><img
-                        src="assets/img/avatar/8dot8.png" alt="8dot8"></a></div>
-                  <div class="slide"><a rel="noopener noreferrer" href="http://biped-robot.or.jp/" target="_blank"><img
-                        src="assets/img/avatar/bra.png" alt="Biped Robot Association"></a></div>
-                  <div class="slide"><img src="assets/img/avatar/chile-desarrollo.png" alt="Chile Desarrollo"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End Content Area -->
+    <?php  require('structure/partners.php'); ?>
   </main>
 
   <?php require('structure/footer.php'); ?>

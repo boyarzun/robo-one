@@ -20,7 +20,7 @@
         <div class="carousel-inner a-cont">
           <!-- carousel-item -->
           <div class="carousel-item active">
-            <div class="h-fullscreen__page bs-c br-n ow-h" style="background-image: url(assets/img/content/carousel/slide_01.jpg);">
+            <div class="h-fullscreen__page bs-c br-n ow-h" style="background-image: url(assets/img/content/carousel/Robo-One-Latino-America-2020-03.jpg);">
               <div class="w-100 d-flex jc-c overlay">
                 <!-- sm-overlay -->
                 <div class="overlay bg-light_A-20 d-lg-none"></div>
@@ -35,7 +35,7 @@
                     <div class="col-10 mr-auto ml-lg-0 col-lg-5">
                       <div class="main_carousel__content ad-900ms fadeIn text-light px-8 px-md-6 mx-lg-4 mx-xl-0">
                         <h2 class="carousel__heading text-light fadeInDown ad-500ms">ROBO-ONE LATINOAMÉRICA</h2>
-                        <p class="carousel__text lead-1 mb-6 fadeInDown ad-600ms">21 de Diciembre 2019 en <a href="https://goo.gl/maps/D1Ad9CL2UqS7ADfcA" target="_blank" rel="noopener noreferrer">Duoc UC San Carlos de Apoquindo</a></p>
+                        <p class="carousel__text lead-1 mb-6 fadeInDown ad-600ms">21° ROBO-ONE Light iniciará el día 19 de septiembre  de 2020 desde las 22:00 hrs de Chile</p>
                         <div class="d-flex fadeInLeft ad-900ms">
                         <a class="d-none d-md-block disabled btn btn-lg bg-dark_A-50 o-1 text-light br-round-0tr br-round-0br parallelogram un_text mb-0"><span class="d-block text-warning">¿Ya tienes equipo?</span></a>
                         <a href="https://docs.google.com/forms/d/1UfHcaDh6Mchan0FH7g1oT1oJ4CJrB1C6-kHsw1evslU/edit" class="btn btn-lg btn-light parallelogram br-round-0tl br-round-0bl un_text mb-0"><span class="d-block">Inscríbete</span></a>
@@ -51,7 +51,7 @@
 
           <!-- carousel-item -->
           <div class="carousel-item">
-            <div class="h-fullscreen__page bs-c br-n ow-h" style="background-image: url(assets/img/content/carousel/slide_02.jpg);">
+            <div class="h-fullscreen__page bs-c br-n ow-h" style="background-image: url(assets/img/content/carousel/Robo-One-Latino-America-2020-04.jpg);">
               <div class="w-100 d-flex jc-c overlay">
                 <!-- sm-overlay -->
                 <div class="overlay bg-light_A-20 d-lg-none"></div>
@@ -66,7 +66,7 @@
                     <div class="col-10 mr-auto ml-lg-0 col-lg-5">
                       <div class="main_carousel__content ad-900ms fadeIn text-light px-8 px-md-6 mx-lg-4 mx-xl-0">
                         <h2 class="carousel__heading text-light fadeInDown ad-500ms">ROBO-ONE LATINOAMÉRICA</h2>
-                        <p class="carousel__text lead-1 mb-6 fadeInDown ad-600ms">Clasificatoria para la final internacional en Japón. Köbe - Japón Febrero 2020.</p>
+                        <p class="carousel__text lead-1 mb-6 fadeInDown ad-600ms">37° ROBO-ONE iniciará el día 20  de septiembre de 2020 desde las 22:00 hrs de Chile</p>
                         <div class="d-flex fadeInLeft ad-900ms">
                           <a class="d-none d-md-block disabled btn btn-lg bg-dark_A-50 o-1 text-light br-round-0tr br-round-0br parallelogram un_text mb-0"><span class="d-block text-warning">¿Ya tienes equipo?</span></a>
                           <a href="https://docs.google.com/forms/d/1UfHcaDh6Mchan0FH7g1oT1oJ4CJrB1C6-kHsw1evslU/edit" class="btn btn-lg btn-light parallelogram br-round-0tl br-round-0bl un_text mb-0"><span class="d-block">Inscríbete</span></a>
@@ -82,7 +82,7 @@
 
           <!-- carousel-item -->
           <div class="carousel-item">
-            <div class="h-fullscreen__page bs-c br-n ow-h" style="background-image: url(assets/img/content/carousel/slide_03.jpg);">
+            <div class="h-fullscreen__page bs-c br-n ow-h" style="background-image: url(assets/img/content/carousel/Robo-One-Latino-America-2020-05.jpg);">
               <div class="w-100 d-flex jc-c overlay">
                 <!-- sm-overlay -->
                 <div class="overlay bg-light_A-20 d-lg-none"></div>
@@ -478,7 +478,7 @@
               <div class="col-12 col-md-8 ml-auto text-secondary text-md-right">
                 <h2 class="mb-4">¿Quieres conocer la competencia?</h2>
                 <span class="d-block text-uppercase ls-3 mb-6">¡Este es el lugar indicado!</span>
-                <a href="/about" class="btn btn-lg btn-warning btn-outline-secondary btn-round"><i class="fa fa-newspaper mr-5" aria-hidden="true"></i>Descubre</a>
+                <a href="/about.php" class="btn btn-lg btn-warning btn-outline-secondary btn-round"><i class="fa fa-newspaper mr-5" aria-hidden="true"></i>Descubre</a>
               </div>
             </div>
             <figure class="d-none d-md-block effect-layla effect-layla-dark"></figure>
@@ -494,7 +494,7 @@
               <div class="col-md-8 text-light">
                 <h2 class="text-light mb-4">Preguntas frecuentes</h2>
                 <p class="mb-7">¿Tienes alguna pregunta? Resuelve tus dudas en nuestra lista de preguntas frecuentes</p>
-                <a href="faq.html" class="btn btn-lg btn-danger btn-round"><i class="fa fa-question-circle mr-5" aria-hidden="true"></i>Revisar FAQ</a>
+                <a href="faq.php" class="btn btn-lg btn-danger btn-round"><i class="fa fa-question-circle mr-5" aria-hidden="true"></i>Revisar FAQ</a>
               </div>
             </div>
           </div>
@@ -521,7 +521,7 @@
               <div class="col-12 col-md-6 mr-auto text-secondary text-left">
                 <h2 class="mb-4">Premios</h2>
                 <span class="d-block lead-1 text-uppercase ls-3 mb-7">El ganador clasifica a ROBO-ONE JAPÓN 2020</span>
-                <a href="/awards" class="btn btn-lg btn-outline-secondary btn-round">Ver más</a>
+                <a href="/awards.php" class="btn btn-lg btn-outline-secondary btn-round">Ver más</a>
               </div>
             </div>
             <figure class="d-none d-md-block effect-layla effect-layla-dark"></figure>
@@ -542,41 +542,7 @@
       </section>
       <!-- /.End Content Area -->
 
-      <!-- Start Content Area -->
-      <section class="latest-articles text-center text-light mb-5">
-        <div class="container">
-          <header class="section-header">
-            <h2>Partners</h2>
-            <hr class="w-10 border-top-2 border-warning o-80">
-          </header>
-          <div class="row">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-12 col-sm-12 col-xs-12">
-                          <div class="partners">
-                            <div class="slide"><a rel="noopener noreferrer" href="http://www.duoc.cl/inicio" target="_blank"><img src="assets/img/avatar/duoc-uc.png" alt="DUOC"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.fundaciontelefonica.cl/" target="_blank"><img src="assets/img/avatar/fundacion-telefonica.png" alt="Telefónica"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.innovarock.cl/" target="_blank"><img src="assets/img/avatar/innovarock.png" alt="Innovarock"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.pucv.cl/" target="_blank"><img src="assets/img/avatar/pucv.png" alt="PUCV"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.radiodemente.cl/" target="_blank"><img src="assets/img/avatar/radio-demente.png" alt="Radio Demente"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="http://www.roboticslab.cl/" target="_blank"><img src="assets/img/avatar/roboticslab.png" alt="Robotics Lab"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://rotatecno.com/" target="_blank"><img src="assets/img/avatar/rotatecno.png" alt="Rotatecno"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.tvn.cl/" target="_blank"><img src="assets/img/avatar/tvn.png" alt="TVN"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.uach.cl/" target="_blank"><img src="assets/img/avatar/universidad-austral-de-chile.png" alt="Universidad Austral de Chile"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.usach.cl/" target="_blank"><img src="assets/img/avatar/usach.png" alt="USACH"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="http://www.ust.cl/" target="_blank"><img src="assets/img/avatar/ust.png" alt="UST"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.utem.cl/" target="_blank"><img src="assets/img/avatar/utem.png" alt="UTEM"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="https://www.8dot8.org/cl" target="_blank"><img src="assets/img/avatar/8dot8.png" alt="8dot8"></a></div>
-                            <div class="slide"><a rel="noopener noreferrer" href="http://biped-robot.or.jp/" target="_blank"><img src="assets/img/avatar/bra.png" alt="Biped Robot Association"></a></div>
-                            <div class="slide"><img src="assets/img/avatar/chile-desarrollo.png" alt="Chile Desarrollo"></div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Content Area -->
+      <?php  require('structure/partners.php'); ?>
 
       <!-- Start Screenshots Area -->
       <div class="screenshots_box">
@@ -679,7 +645,7 @@
 
     <!-- new -->
     <div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="newTitle" aria-hidden="true">
-        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content bg-dark">
             <div class="modal-header border-secondary">
               <h5 class="modal-title text-warning" id="newTitle">¡Atención!</h5>
@@ -689,9 +655,14 @@
             </div>
             <div class="modal-body">
                 <div style="text-align: center;">
-                  <a href="http://ia13.cl/streaming" target="_blank" rel="noopener noreferrer"><img src="assets/img/streaming.png" width="100%"></a>
+                  <a href="https://www.twitch.tv/robo_one" target="_blank" rel="noopener noreferrer"><img src="assets/img/logo-twitch.png" width="100%"></a>
                 </div>
-                <p>Se ha cambiado la fecha de la competencia al Sábado 21 de diciembre. Revisa nuestra <a href="http://ia13.cl/streaming" target="_blank" rel="noopener noreferrer">transmisión en vivo.</a></p>
+<br>
+                <p>La famosa competencia de robótica bipeda nacida en Japón este año será realizada virtualmente. Revisa nuestra <a href="https://www.twitch.tv/robo_one" target="_blank" rel="noopener noreferrer">transmisión en vivo.</a></p>
+<hr style="border-top: 1px solid rgb(211, 193, 7); margin-top:0; margin-bottom: 0;">
+<p>El torneo que se llevará a cabo en el mes de septiembre se realizará en las siguientes fechas:</p>
+<p>21° ROBO-ONE Light iniciará el día 19 de septiembre  de 2020 desde las 22:00 hrs de Chile</p>
+<p>37° ROBO-ONE iniciará el día 20  de septiembre de 2020 desde las 22:00 hrs de Chile</p>
             </div>
           </div>
         </div>
@@ -700,12 +671,12 @@
 
     <?php require('structure/scripts.php') ?>
     <script src="assets/js/index.js"></script>
-	  <!--
+    <!--
     <script>
       $(document).ready(
         $('#newModal').modal('show')
       )
     </script>
--->
+    -->
   </body>
 </html>

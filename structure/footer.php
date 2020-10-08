@@ -8,6 +8,7 @@
                 <div class="social-buttons">
                   <a class="social-facebook" href="https://www.facebook.com/roboonelatinoamerica" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
                   <a class="social-instagram" href="https://www.instagram.com/robo_one_latinoamerica/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+<a class="social-twitch" href="https://www.twitch.tv/robo_one" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitch"></i></a>
                 </div>
               </div>
 

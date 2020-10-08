@@ -9,9 +9,10 @@
           <ul class="nav navbar-nav ml-lg-auto">
             <li class="nav-item"><a class="nav-link mr-2" href="/">Inicio</a></li>
             <li class="nav-item dropdown dropdown-hover">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownGaming_community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calendario </a>
+                <a class="nav-link dropdown-toggle" href="calendar-2020.php" id="dropdownGaming_community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Calendario </a>
                 <div class="dropdown-menu dropdown-menu-dark-lg" aria-labelledby="dropdownGaming_community">
                   <a class="dropdown-item" href="calendar.php">2019</a>
+<a class="dropdown-item" href="calendar-2020.php">2020</a>
                 </div>
             </li>
             <li class="nav-item"><a class="nav-link mr-2" href="awards.php">Premios</a></li>
