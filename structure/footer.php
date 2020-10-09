@@ -21,12 +21,14 @@
               </div>
 
               <div class="col-6 col-lg-2">
-                <h6 class="text-uppercase fw-600 mb-4">Competencia</h6>
+                <h6 class="text-uppercase fw-600 mb-4">Extranjero</h6>
                 <div class="nav flex-column">
-                  <!--<a class="nav-link" href="teams.html">Equipos</a>-->
-                  <a class="nav-link" href="/awards.php">Premios</a>
-                  <a class="nav-link" href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank">Bases</a>
-                  <a class="nav-link" href="https://files.robo-one.cl/file/robo-one/Te%CC%81rminos+de+participacio%CC%81n+ROBO-ONE+LATINOAMERICA+2019.pdf" target="_blank">Términos</a>
+                  <div>
+                    <a class="nav-link" href="http://www.reca.or.kr/" target="_blank" style="display: inline;">Korea</a> - <a class="nav-link" href="https://www.facebook.com/worldcreativerobotcontest/" target="_blank" style="display: inline;"><small>Facebook</small></a>
+                  </div>
+                  <div>
+                    <a class="nav-link" href="http://www.tca.org.tw/" target="_blank" style="display: inline;">Taiwan</a> - <a class="nav-link" href="https://www.facebook.com/RobotIndustrialDevelopmentOffice/" target="_blank" style="display: inline;"><small>Facebook</small></a>
+                  </div>
                 </div>
               </div>
 
