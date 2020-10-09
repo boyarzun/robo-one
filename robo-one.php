@@ -61,7 +61,7 @@
               </div>
             </div>
             <div class="archive border border-secondary rounded mb-4">
-              <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Infórmate</span></div>
+              <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Torneos</span></div>
               <div class="py-6 py-xl-5 px-4">
                 <div class="row gutters-y" id="last-competitions-items">
                 </div>
@@ -155,8 +155,8 @@
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="faq.php" class="badge badge-secondary mb-2">FAQ</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="faq.php">${element.title.rendered}</a></h6>
+                            <div class="lh-1"><a href="faq.php" class="badge badge-secondary mb-2">Robo One</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="#">${element.title.rendered}</a></h6>
                           </div>
                         </div>
                       </div>
