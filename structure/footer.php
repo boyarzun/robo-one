@@ -35,7 +35,7 @@
               <div class="col-6 col-lg-2">
                 <h6 class="text-uppercase fw-600 mb-4">Ayuda</h6>
                 <div class="nav flex-column">
-                  <a class="nav-link" href="faq">FAQ</a>
+                  <a class="nav-link" href="faq.php">FAQ</a>
                   <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a>
                 </div>
               </div>
