@@ -24,10 +24,10 @@
                 <h6 class="text-uppercase fw-600 mb-4">Extranjero</h6>
                 <div class="nav flex-column">
                   <div>
-                    <a class="nav-link" href="http://www.reca.or.kr/" target="_blank" style="display: inline;">Korea</a> - <a class="nav-link" href="https://www.facebook.com/worldcreativerobotcontest/" target="_blank" style="display: inline;"><small>Facebook</small></a>
+                    <a class="nav-link" href="http://www.reca.or.kr/" target="_blank" style="display: inline;">Korea</a> <a class="nav-link" href="https://www.facebook.com/worldcreativerobotcontest/" target="_blank" style="display: inline;"><img src="assets/img/facebook.png" alt="Facebook" width="16px"></a><a class="nav-link" href="http://www.reca.or.kr/" target="_blank" style="display: inline;"><img src="assets/img/world.png" alt="Facebook" width="16px"></a>
                   </div>
                   <div>
-                    <a class="nav-link" href="http://www.tca.org.tw/" target="_blank" style="display: inline;">Taiwan</a> - <a class="nav-link" href="https://www.facebook.com/RobotIndustrialDevelopmentOffice/" target="_blank" style="display: inline;"><small>Facebook</small></a>
+                    <a class="nav-link" href="http://www.tca.org.tw/" target="_blank" style="display: inline;">Taiwan</a> <a class="nav-link" href="https://www.facebook.com/RobotIndustrialDevelopmentOffice/" target="_blank" style="display: inline;"><img src="assets/img/facebook.png" alt="Facebook" width="16px"></a><a class="nav-link" href="http://www.tca.org.tw/" target="_blank" style="display: inline;"><img src="assets/img/world.png" alt="Facebook" width="16px"></a>
                   </div>
                 </div>
               </div>
