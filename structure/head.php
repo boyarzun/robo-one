@@ -10,7 +10,7 @@
     <meta property="og:description" content="¡La batalla continúa! Clasificatoria para ROBO-ONE Latino América 2020."/>
     <meta property="og:site_name" content="Robo One - Competencia de Róbotica Bípeda"/>
     <meta property="og:url" content="https://www.robo-one.cl"/>
-    <meta property="og:image" content="https://robo-one.cl/assets/img/BIPED-ROBOTICS-CHAMPIONSHIP.png"/>
+    <meta property="og:image" content="https://robo-one.la/assets/img/BIPED-ROBOTICS-CHAMPIONSHIP.png"/>
     <link href="assets/css/fonts/etline-font.min.css" rel="stylesheet">
     <link href="assets/css/fonts/fontawesome/all.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
