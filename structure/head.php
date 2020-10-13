@@ -6,11 +6,11 @@
 	  <meta name="description" content="Robo One es una competencia avanzada de robótica bípeda humanoide, nacida en Japón que requiere destreza y conocimiento, enfocada al desarrollo de la robótica bípeda en el mundo.">
     <meta property="og:locale" content="es"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:title" content="Inicio | Robo One"/>
-    <meta property="og:description" content="Robo One es una competencia avanzada de robótica bípeda humanoide, nacida en Japón que requiere destreza y conocimiento, enfocada al desarrollo de la robótica bípeda en el mundo."/>
-    <meta property="og:site_name" content="Robo One"/>
+    <meta property="og:title" content="Robo One - Competencia de Róbotica Bípeda"/>
+    <meta property="og:description" content="¡La batalla continúa! Clasificatoria para ROBO-ONE Latino América 2020."/>
+    <meta property="og:site_name" content="Robo One - Competencia de Róbotica Bípeda"/>
     <meta property="og:url" content="https://www.robo-one.cl"/>
-    <meta property="og:image" content="https://robo-one.cl/assets/img/og_image.jpg"/>
+    <meta property="og:image" content="https://robo-one.cl/assets/img/BIPED-ROBOTICS-CHAMPIONSHIP.png"/>
     <link href="assets/css/fonts/etline-font.min.css" rel="stylesheet">
     <link href="assets/css/fonts/fontawesome/all.min.css" rel="stylesheet">
     <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
