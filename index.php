@@ -158,34 +158,6 @@
             </div>
           </div>
         </div>
-        <div class="row no-gutters">
-          <div class="col-xl-6 py-8 px-4 px-sm-8 py-md-9 px-md-9 bs-c" style="background-image: url('assets/img/content/cont/cg-fl_04.jpg');" data-overlay="7">
-            <div class="row align-items-center h-100">
-              <div class="col-sm-6 col-md-4 order-md-2 mb-6 mb-md-0">
-                <figure class="position-relative my-0">
-                  <div style="background-image: url('assets/img/content/cont/cg_08.png');" class="main-fb-product bs-c bp-c br-n">
-                  </div>
-                </figure>
-              </div>
-              <div class="col-md-8 order-md-1 text-light text-md-right">
-                <h2 class="mb-4">Reglas de la competencia</h2>
-                <p class="mb-7">Reglas de la competencia ROBO-ONE actualizada a Junio 2019</p>
-                <a href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" class="btn btn-lg btn-danger btn-round"><i class="fa fa-file-pdf mr-5" aria-hidden="true"></i>Obtén las bases</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-sm-12 py-8 px-4 px-sm-8 py-md-9 px-md-9 bs-c effect-wrapper effect-grayscale position-relative hover" style="background-image: url('assets/img/content/cont/cg-fl_02.jpg');">
-            <div class="overlay bg-light_A-90 d-md-none"></div>
-            <div class="row h-100 align-items-center content">
-              <div class="col-12 col-md-6 mr-auto text-secondary text-left">
-                <h2 class="mb-4">Premios</h2>
-                <span class="d-block lead-1 text-uppercase ls-3 mb-7">El ganador clasifica a ROBO-ONE JAPÓN 2020</span>
-                <a href="/awards.php" class="btn btn-lg btn-outline-secondary btn-round">Ver más</a>
-              </div>
-            </div>
-            <figure class="d-none d-md-block effect-layla effect-layla-dark"></figure>
-          </div>
-        </div>
       </section>
       <!-- End Content Area -->
 
