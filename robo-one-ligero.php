@@ -121,50 +121,21 @@
 
   <?php require('structure/scripts.php'); ?>
   <script>
-    let categories = "categories=4"
-    let fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts?' + categories;
-    let lastCompetitions = document.getElementById('last-competitions-items');
+    let roboOneId = getUrlParam('id')
 
-    axios.get(fetchUrl)
-    .then(function(response) {
-        
-        // Getting the last element
-        var lastElement = response.data[0]
-        var date = new Date(lastElement.date)
-        date = date.getDate().toString() + "-" + (date.getMonth() + 1).toString() + "-" + date.getFullYear().toString()
-        document.getElementById('new-title').innerHTML =lastElement.title.rendered
-        document.getElementById('new-author').innerHTML += 'Robo One'
-        document.getElementById('new-date').innerHTML += date;
-        document.getElementById('new-content').innerHTML = lastElement.content.rendered
-        document.getElementById('new-image').innerHTML = '<img src="' + lastElement.jetpack_featured_media_url + '" width="100%" alt="Robo One">';
-        
-        // Getting the rest of the elements
-        Object.values(response.data)
-            .filter(function (element) { return element.id != lastElement.id })
-            .map(function(element) { 
-                lastCompetitions.innerHTML += `<div class="col-md-6 col-lg-12">
-                    <!-- news-item -->
-                    <div class="news-item">
-                      <div class="row no-gutters">
-                        <div class="col-lg-5 mb-5 mb-lg-0">
-                          <div class="rounded overflow-h">
-                            <div>
-                              <img src="${element.jetpack_featured_media_url}" alt="Robo One">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-7">
-                          <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="faq.php" class="badge badge-secondary mb-2">Robo One Light</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="#">${element.title.rendered}</a></h6>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /.news-item -->
-                  </div>`
-             })
-    });
+    if (roboOneId) {
+      var newId = getUrlParam('id')
+      var fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts/' + newId;
+      renderSinglePost(fetchUrl)
+    } else {
+      var roboOneCategory = "categories=4"
+      var fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts?per_page=1&' + roboOneCategory;
+      renderSinglePost(fetchUrl)
+    }
+
+    var tournamentsFetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts?per_page=10&categories=4'
+    renderTournaments(tournamentsFetchUrl)
+
   </script>
 </body>
 

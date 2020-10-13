@@ -16,6 +16,9 @@
 <!-- Axios -->
 <script src="assets/js/axios.min.js"></script>
 
+<!-- Custom -->
+<script src="assets/js/custom.js"></script>
+
 <!--
 <script type="text/javascript">
   $(document).ready(function() {

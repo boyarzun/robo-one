@@ -747,9 +747,9 @@ figure.effect-layla-dark::before, figure.effect-layla-dark::after {
 
 .triangle-bottomleft {
   poents-events: none;
-  border-bottom: 100vh solid rgba(0, 0, 0, 0.77); }
+  border-bottom: 100vh solid rgba(0, 0, 0, 0.5); }
   .triangle-bottomleft:before {
-    background-color: rgba(0, 0, 0, 0.77); }
+    background-color: rgba(0, 0, 0, 0.5); }
 
 .text__gradient {
   position: relative;

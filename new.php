@@ -212,19 +212,10 @@
 
   <?php require('structure/scripts.php'); ?>
   <script>
-    let newId = getUrlParam('id')
-    let fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts/' + newId;
+    var newId = getUrlParam('id')
+    var fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts/' + newId;
 
-    axios.get(fetchUrl)
-    .then(function(response) {
-         var date = new Date(response.data.date)
-        date = date.getDate().toString() + "-" + (date.getMonth() + 1).toString() + "-" + date.getFullYear().toString()
-        document.getElementById('new-title').innerHTML =response.data.title.rendered
-        document.getElementById('new-author').innerHTML += 'Robo One'
-        document.getElementById('new-date').innerHTML += date;
-        document.getElementById('new-content').innerHTML = response.data.content.rendered
-        document.getElementById('new-image').innerHTML = '<img src="' + response.data.jetpack_featured_media_url + '" width="100%" alt="Robo One">';
-    });
+    renderSinglePost(fetchUrl)
   </script>
 </body>
 
