@@ -206,39 +206,14 @@
                         <div class="col-lg-5 mb-5 mb-lg-0">
                           <div class="rounded overflow-h">
                             <div>
-                              <img src="assets/img/content/img_01.jpg" alt="Robo One">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-7">
-                          <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a
-                                href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf"
-                                target="_blank" class="badge badge-secondary mb-2">Bases</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a
-                                href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf"
-                                target="_blank">Obtén las bases de la competencia</a></h6>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- /.news-item -->
-                  </div>
-                  <div class="col-md-6 col-lg-12">
-                    <!-- news-item -->
-                    <div class="news-item">
-                      <div class="row no-gutters">
-                        <div class="col-lg-5 mb-5 mb-lg-0">
-                          <div class="rounded overflow-h">
-                            <div>
                               <img src="assets/img/content/award/learn.jpg" alt="Robo One">
                             </div>
                           </div>
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="/learn" class="badge badge-warning mb-2">Aprende más</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/learn">¡Prepárate para competir en
+                            <div class="lh-1"><a href="/learn.php" class="badge badge-warning mb-2">Aprende más</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/learn.php">¡Prepárate para competir en
                                 Robo One!</a></h6>
                           </div>
                         </div>

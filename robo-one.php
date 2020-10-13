@@ -51,6 +51,7 @@
             </div>
           </div>
           <div class="col-lg-4">
+          <!--
             <div class="bg-dark_A-20 p-4 mb-4">
               <img src="assets/img/content/cont/belt.png" alt="Robo One" class="mb-3">
               <p>Inscríbete junto a tu equipo en Robo One Chile 2019, compite para ser el campeón y clasifica a Robo One
@@ -60,6 +61,7 @@
                   target="_blank" class="btn btn-block btn-warning"> Inscripción</a>
               </div>
             </div>
+            -->
             <div class="archive border border-secondary rounded mb-4">
               <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Torneos</span></div>
               <div class="py-6 py-xl-5 px-4">

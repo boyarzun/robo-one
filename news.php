@@ -61,6 +61,7 @@
                 <!-- /.pagination -->
               </div>
               <div class="col-lg-4">
+                    <!--
                     <div class="bg-dark_A-20 p-4 mb-4">
                       <img src="assets/img/content/cont/belt.png" alt="Robo One" class="mb-3">
                       <p>Inscríbete junto a tu equipo en Robo One Chile 2019, compite para ser el campeón y clasifica a Robo One Japón 2020 ¡Incluye pasaje y estadía en Japón para el Robot ganador!</p>
@@ -68,6 +69,7 @@
                       <a href="https://docs.google.com/forms/d/1UfHcaDh6Mchan0FH7g1oT1oJ4CJrB1C6-kHsw1evslU/edit" target="_blank" class="btn btn-block btn-warning"> Inscripción</a>
                       </div>
                     </div>
+                    -->
                     <div class="archive border border-secondary rounded mb-4">
                           <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Infórmate</span></div>
                           <div class="py-6 py-xl-5 px-4">
@@ -100,35 +102,14 @@
                                     <div class="col-lg-5 mb-5 mb-lg-0">
                                       <div class="rounded overflow-h">
                                         <div>
-                                          <img src="assets/img/content/img_01.jpg" alt="Robo One">
-                                        </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-lg-7">
-                                      <div class="text-gray pl-lg-3">
-                                        <div class="lh-1"><a href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank" class="badge badge-secondary mb-2">Bases</a></div>
-                                        <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank">Obtén las bases de la competencia</a></h6>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!-- /.news-item -->
-                              </div>
-                              <div class="col-md-6 col-lg-12">
-                                <!-- news-item -->
-                                <div class="news-item">
-                                  <div class="row no-gutters">
-                                    <div class="col-lg-5 mb-5 mb-lg-0">
-                                      <div class="rounded overflow-h">
-                                        <div>
                                           <img src="assets/img/content/award/learn.jpg" alt="Robo One">
                                         </div>
                                       </div>
                                     </div>
                                     <div class="col-lg-7">
                                       <div class="text-gray pl-lg-3">
-                                        <div class="lh-1"><a href="/learn" class="badge badge-warning mb-2">Aprende más</a></div>
-                                        <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/learn">¡Prepárate para competir en Robo One!</a></h6>
+                                        <div class="lh-1"><a href="/learn.php" class="badge badge-warning mb-2">Aprende más</a></div>
+                                        <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/learn.php">¡Prepárate para competir en Robo One!</a></h6>
                                       </div>
                                     </div>
                                   </div>
