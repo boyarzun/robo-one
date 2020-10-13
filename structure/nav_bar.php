@@ -9,7 +9,7 @@
           <ul class="nav navbar-nav ml-lg-auto">
             <li class="nav-item"><a class="nav-link mr-2" href="/">Inicio</a></li>
             <li class="nav-item"><a class="nav-link mr-2" href="/robo-one.php">Robo-One</a></li>
-            <li class="nav-item"><a class="nav-link mr-2" href="/robo-one-ligero.php">Robo-One <small>Ligero</small></a></li>
+            <li class="nav-item"><a class="nav-link mr-2" href="/robo-one-ligero.php">Robo-One <small>Light</small></a></li>
             <li class="nav-item"><a class="nav-link mr-2" href="news.php">Noticias</a></li>
             <li class="nav-item dropdown dropdown-hover">
                 <a class="nav-link dropdown-toggle" href="learn.php" id="dropdownGaming_community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aprende más </a>
