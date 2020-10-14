@@ -16,8 +16,6 @@
                 <div class="dropdown-menu dropdown-menu-dark-lg" aria-labelledby="dropdownGaming_community">
                   <a class="dropdown-item" href="about.php">Acerca de la competencia</a>
                   <a class="dropdown-item" href="learn.php">Prepararse para la competencia</a>
-                  <a class="dropdown-item" href="https://files.robo-one.cl/file/robo-one/Reglas+Robo-One+Espan%CC%83ol+2019+V2.pdf" target="_blank">Bases de la competencia</a>
-                  <a class="dropdown-item" href="https://files.robo-one.cl/file/robo-one/Te%CC%81rminos+de+participacio%CC%81n+ROBO-ONE+LATINOAMERICA+2019.pdf" target="_blank">Términos de participación</a>
                 </div>
               </li>
             <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a></li>

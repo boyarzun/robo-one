@@ -276,7 +276,7 @@
 
     <!-- new -->
     <div class="modal fade" id="newModal" tabindex="-1" role="dialog" aria-labelledby="newTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div class="modal-content bg-dark">
             <div class="modal-header border-secondary">
               <h5 class="modal-title text-warning" id="newTitle">¡Atención!</h5>
@@ -286,14 +286,8 @@
             </div>
             <div class="modal-body">
                 <div style="text-align: center;">
-                  <a href="https://www.twitch.tv/robo_one" target="_blank" rel="noopener noreferrer"><img src="assets/img/logo-twitch.png" width="100%"></a>
+                  <img src="assets/img/robo-one-october.jpg" width="100%">
                 </div>
-<br>
-                <p>La famosa competencia de robótica bipeda nacida en Japón este año será realizada virtualmente. Revisa nuestra <a href="https://www.twitch.tv/robo_one" target="_blank" rel="noopener noreferrer">transmisión en vivo.</a></p>
-<hr style="border-top: 1px solid rgb(211, 193, 7); margin-top:0; margin-bottom: 0;">
-<p>El torneo que se llevará a cabo en el mes de septiembre se realizará en las siguientes fechas:</p>
-<p>21° ROBO-ONE Light iniciará el día 19 de septiembre  de 2020 desde las 22:00 hrs de Chile</p>
-<p>37° ROBO-ONE iniciará el día 20  de septiembre de 2020 desde las 22:00 hrs de Chile</p>
             </div>
           </div>
         </div>
@@ -302,12 +296,10 @@
 
     <?php require('structure/scripts.php') ?>
     <script src="assets/js/index.js"></script>
-    <!--
     <script>
       $(document).ready(
         $('#newModal').modal('show')
       )
     </script>
-    -->
   </body>
 </html>

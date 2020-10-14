@@ -22,8 +22,6 @@
           <div class="col-lg-6 mx-auto">
             <div class="fadeIn ad-500ms">
               <img class="mb-5" src="assets/img/content/cont/robo-one.png" alt="Robo One">
-              <p class="lead-lg mb-7" style="font-weight: 400;">21 de Diciembre 2019. Clasificatoria para la final
-                internacional en Japón köbe - Japón Febrero 2020.</p>
             </div>
           </div>
         </div>
@@ -64,8 +62,8 @@
             <hr class="w-10 border-top-2 my-6 my-xl-7 border-warning">
             <p class="lead-1">Fomentar las habilidades tecnológicas de los estudiantes, pensamiento computacional y de
               esta forma acortar la brecha tecnológica del país, en niveles de acceso, uso y especialización.
-              Realizar en 2019 el primer campeonato internacional de robótica bípeda ROBO-ONE en Chile, impactando al
-              desarrollo tecnológico y STEAM, aportando al sistema educacional chileno para alumnos desde 2º ciclo de
+              En 2019 se realizó el primer campeonato internacional de robótica bípeda ROBO-ONE en Chile, impactando al
+              desarrollo tecnológico y STENAM, aportando al sistema educacional chileno para alumnos desde 2º ciclo de
               formación.</p>
             <p class="lead-1">Masificar el conocimiento tecnológico avanzado en Chile. Inspirar a todo tipo de
               personas, especialmente jóvenes estudiantes a incursionar en el desarrollo y adquisición de conocimiento
@@ -81,7 +79,7 @@
 
     <?php  require('structure/partners.php'); ?>
 
-    <!-- Start Content Area -->
+    <!-- Start Content Area
     <section class="content-section testimonial-section text-center bg-warning" data-overlay="2">
       <div class="container">
         <div class="row">
@@ -98,9 +96,9 @@
         </div>
       </div>
     </section>
-    <!-- End Content Area -->
+    End Content Area -->
 
-    <!-- Start Content Area -->
+    <!-- Start Content Area
     <section class="content-section text-light parallax-window position-relative" data-parallax="scroll"
       data-image-src="assets/img/bg/map_01.jpg">
       <div class="overlay bg-dark_A-30 pe-n"></div>
@@ -126,7 +124,7 @@
         </div>
       </div>
     </section>
-    <!-- /.End Content Area -->
+    End Content Area -->
 
     <!-- Start Screenshots Area -->
     <div class="screenshots_box">
