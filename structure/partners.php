@@ -13,15 +13,21 @@
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.8dot8.org/" target="_blank"><img src="assets/img/partners/8dot8.png" alt="8dot8"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.pucv.cl/" target="_blank"><img src="assets/img/pucv.jpg" alt="PUCV"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.roboticslab.cl/" target="_blank"><img src="assets/img/partners/roboticslab-scl-x1.jpg" alt="Robotics Lab SCL"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="#" target="_blank"><img src="assets/img/partners/radio-demente.jpg" alt="Radio Demente"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="#" target="_blank"><img src="assets/img/partners/bra.png" alt="BRA"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.13.cl/ia/noticias/robotica" target="_blank"><img src="assets/img/partners/ia13.png" alt="IA13"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://portales.inacap.cl/" target="_blank"><img src="assets/img/partners/inacap.png" alt="Inacap"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.itsec.cl/" target="_blank"><img src="assets/img/partners/itsec.jpg" alt="ITSEC"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.robo-one.com/en/" target="_blank"><img src="assets/img/partners/robo-one.png" alt="Robo One"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.mecatronicalatam.com/" target="_blank"><img src="assets/img/partners/mecatronica-latam.jpg" alt="Mecatronica Latam"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://us.misumi-ec.com/" target="_blank"><img src="assets/img/partners/misumi.png" alt="Misumi"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="#" target="_blank"><img src="assets/img/partners/wcrc.png" alt="WCRC"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.duoc.cl/" target="_blank"><img src="assets/img/partners/duoc.png" alt="Duoc UC"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.rotatecno.com/" target="_blank"><img src="assets/img/partners/rotatecno-blue.jpg" alt="Rotatecno"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.stenam.org/" target="_blank"><img src="assets/img/partners/stenam.jpg" alt="STENAM"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="http://world-robofest.com/" target="_blank"><img src="assets/img/partners/reca.jpg" alt="RECA"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://kondo-robot.com/" target="_blank"><img src="assets/img/partners/kondo.jpg" alt="KONDO"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="#" target="_blank"><img src="assets/img/partners/chile-ong.jpg" alt="Chile ONG"></a></div>
                           </div>
                       </div>
                   </div>

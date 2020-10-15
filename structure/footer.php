@@ -23,6 +23,9 @@
               <div class="col-6 col-lg-2">
                 <h6 class="text-uppercase fw-600 mb-4">Extranjero</h6>
                 <div class="nav flex-column">
+                <div>
+                    <a class="nav-link" href="https://www.robo-one.com/" target="_blank" style="display: inline;">Japón</a> <a class="social-facebook" class="nav-link" href="https://www.facebook.com/BipedRobotAssociation/" target="_blank" style="display: inline;"><i class="fab fa-facebook"></i> </a><a class="nav-link" href="https://www.robo-one.com/" target="_blank" style="display: inline;"><i class="fas fa-globe"></i></a>
+                  </div>
                   <div>
                     <a class="nav-link" href="http://www.reca.or.kr/" target="_blank" style="display: inline;">Korea</a> <a class="social-facebook"  class="nav-link" href="https://www.facebook.com/worldcreativerobotcontest/" target="_blank" style="display: inline;"><i class="fab fa-facebook"></i></a><a class="nav-link" href="http://www.reca.or.kr/" target="_blank" style="display: inline;"><i class="fas fa-globe"></i></a>
                   </div>
