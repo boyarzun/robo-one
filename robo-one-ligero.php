@@ -70,7 +70,7 @@
                       <div class="row no-gutters">
                         <div class="col-lg-12">
                           <div class="text-gray pl-lg-3">
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="#">Bases de la competencia</a></h6>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="http://robo-one.la/files/Reglas Competencia Remota  1ª ROBO-ONE Light - CHILE 1ª ROBO-ONE CHILE 2020 v2.pdf">Bases de la competencia</a></h6>
                           </div>
                         </div>
                       </div>
@@ -78,7 +78,7 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="archive border border-secondary rounded mb-4">
               <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Torneos</span></div>
               <div class="py-6 py-xl-5 px-4">

@@ -16,6 +16,7 @@
                 <div class="dropdown-menu dropdown-menu-dark-lg" aria-labelledby="dropdownGaming_community">
                   <a class="dropdown-item" href="about.php">Acerca de la competencia</a>
                   <a class="dropdown-item" href="learn.php">Prepararse para la competencia</a>
+                  <a class="dropdown-item" href="https://robo-one.la/files/Política de privacidad robo-one.pdf">Políticas de Privacidad</a>
                 </div>
               </li>
             <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a></li>

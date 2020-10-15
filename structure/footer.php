@@ -37,6 +37,7 @@
                 <div class="nav flex-column">
                   <a class="nav-link" href="faq.php">FAQ</a>
                   <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a>
+                  <a class="nav-link" href="https://robo-one.la/files/Política de privacidad robo-one.pdf">Políticas de Privacidad</a>
                 </div>
               </div>
           </div>
