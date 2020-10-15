@@ -51,17 +51,16 @@
             </div>
           </div>
           <div class="col-lg-4">
-          <!--
+          
             <div class="bg-dark_A-20 p-4 mb-4">
               <img src="assets/img/content/cont/belt.png" alt="Robo One" class="mb-3">
-              <p>Inscríbete junto a tu equipo en Robo One Chile 2019, compite para ser el campeón y clasifica a Robo One
-                Japón 2020 ¡Incluye pasaje y estadía en Japón para el Robot ganador!</p>
+              <p>Inscríbete junto a tu equipo en Robo One 2020 Light ¡compite para ser el campeón!</p>
               <div>
-                <a href="https://docs.google.com/forms/d/1UfHcaDh6Mchan0FH7g1oT1oJ4CJrB1C6-kHsw1evslU/edit"
+                <a href="https://forms.gle/1Q2YogcY7JaxP3758"
                   target="_blank" class="btn btn-block btn-warning"> Inscripción</a>
               </div>
             </div>
-            -->
+            
             <div class="archive border border-secondary rounded mb-4">
               <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Información</span></div>
               <div class="py-6 py-xl-5 px-4">
