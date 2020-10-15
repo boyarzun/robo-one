@@ -63,6 +63,23 @@
             </div>
             -->
             <div class="archive border border-secondary rounded mb-4">
+              <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Información</span></div>
+              <div class="py-6 py-xl-5 px-4">
+                <div class="row gutters-y">
+                <div class="news-item">
+                      <div class="row no-gutters">
+                        <div class="col-lg-12">
+                          <div class="text-gray pl-lg-3">
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="#">Bases de la competencia</a></h6>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="archive border border-secondary rounded mb-4">
               <div class="bg-secondary px-4 py-1"><span class="fw-600 ls-1 text-uppercase small">Torneos</span></div>
               <div class="py-6 py-xl-5 px-4">
                 <div class="row gutters-y" id="last-competitions-items">
