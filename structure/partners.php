@@ -11,6 +11,7 @@
                       <div class="col-md-12 col-sm-12 col-xs-12">
                           <div class="partners">
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.8dot8.org/" target="_blank"><img src="assets/img/partners/8dot8.png" alt="8dot8"></a></div>
+                            <div class="slide"><a rel="noopener noreferrer" href="https://www.pucv.cl/" target="_blank"><img src="assets/img/pucv.jpg" alt="PUCV"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.roboticslab.cl/" target="_blank"><img src="assets/img/partners/roboticslab-scl-x1.jpg" alt="Robotics Lab SCL"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="#" target="_blank"><img src="assets/img/partners/bra.png" alt="BRA"></a></div>
                             <div class="slide"><a rel="noopener noreferrer" href="https://www.13.cl/ia/noticias/robotica" target="_blank"><img src="assets/img/partners/ia13.png" alt="IA13"></a></div>
