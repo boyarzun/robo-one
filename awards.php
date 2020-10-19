@@ -190,8 +190,8 @@
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="/about.php" class="badge badge-warning mb-2">Descubre</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/about.php">¿Quieres conocer el
+                            <div class="lh-1"><a href="{% url 'pages:about' %}" class="badge badge-warning mb-2">Descubre</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="{% url 'pages:about' %}">¿Quieres conocer el
                                 evento?</a></h6>
                           </div>
                         </div>
@@ -212,8 +212,8 @@
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="/learn.php" class="badge badge-warning mb-2">Aprende más</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="/learn.php">¡Prepárate para competir en
+                            <div class="lh-1"><a href="{% url 'pages:learn' %}" class="badge badge-warning mb-2">Aprende más</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="{% url 'pages:learn' %}">¡Prepárate para competir en
                                 Robo One!</a></h6>
                           </div>
                         </div>
@@ -234,8 +234,8 @@
                         </div>
                         <div class="col-lg-7">
                           <div class="text-gray pl-lg-3">
-                            <div class="lh-1"><a href="faq.php" class="badge badge-secondary mb-2">FAQ</a></div>
-                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="faq.php">Revisa nuestra lista de
+                            <div class="lh-1"><a href="{% url 'pages:faq' %}" class="badge badge-secondary mb-2">FAQ</a></div>
+                            <h6 class="text-uppercase mb-0 small-2 fw-400"><a href="{% url 'pages:faq' %}">Revisa nuestra lista de
                                 preguntas frecuentes</a></h6>
                           </div>
                         </div>

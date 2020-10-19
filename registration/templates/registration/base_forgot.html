@@ -1,0 +1,16 @@
+{% extends 'registration/base.html' %}
+
+{% block title %}{% endblock %}
+{% block form_type %}login-forgot-on{% endblock %}
+
+{% block form %}
+<!--begin::Forgot-->
+<div class="login-form login-forgot pt-11">
+    <!--begin::Form-->
+    <form class="form" novalidate="novalidate" method="POST" id="kt_login_forgot_form">
+        {% block form_body %}{% endblock %}
+    </form>
+    <!--end::Form-->
+</div>
+<!--end::Forgot-->
+{% endblock %}

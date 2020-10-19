@@ -1,0 +1,5 @@
+{% for field in form %}
+    {% if field.field.widget.input_type == "text" or field.field.widget.input_type == "number" %}
+        {% include 'generic/dashboard/forms/input.html' %}
+    {% endif %}
+{% endfor %}

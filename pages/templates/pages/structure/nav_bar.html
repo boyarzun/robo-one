@@ -1,0 +1,28 @@
+{% load static %}
+<!-- Start Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top border-nav">
+      <div class="container">
+        <a class="navbar-brand align-items-center logo" href="/">
+          <img src="{% static 'assets/front/assets/img/logo.png' %}" alt="Robo One" class="logo-light mx-auto">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="nav navbar-nav ml-lg-auto">
+            <li class="nav-item"><a class="nav-link mr-2" href="{% url 'pages:index' %}">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link mr-2" href="{% url 'pages:robo_one' %}">Robo-One</a></li>
+            <li class="nav-item"><a class="nav-link mr-2" href="{% url 'pages:robo_one_light' %}">Robo-One <small>Light</small></a></li>
+            <li class="nav-item"><a class="nav-link mr-2" href="{% url 'pages:news' %}">Noticias</a></li>
+            <li class="nav-item dropdown dropdown-hover">
+                <a class="nav-link dropdown-toggle" href="{% url 'pages:learn' %}" id="dropdownGaming_community" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aprende más </a>
+                <div class="dropdown-menu dropdown-menu-dark-lg" aria-labelledby="dropdownGaming_community">
+                  <a class="dropdown-item" href="{% url 'pages:about' %}">Acerca de la competencia</a>
+                  <a class="dropdown-item" href="{% url 'pages:learn' %}">Prepararse para la competencia</a>
+                  <a class="dropdown-item" href="https://robo-one.la/files/Política de privacidad robo-one.pdf">Políticas de Privacidad</a>
+                </div>
+              </li>
+            <li class="nav-item"><a class="nav-link mr-2" href="#" data-toggle="modal" data-target="#contactModal">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /.End Navbar -->

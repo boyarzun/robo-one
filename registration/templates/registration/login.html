@@ -1,0 +1,53 @@
+{% extends 'registration/base.html' %}
+
+{% block title %}Ingresar{% endblock %}
+{% block form_type %}login-signin-on{% endblock %}
+
+{% block form %}
+<!--begin::Signin-->
+<div class="login-form login-signin py-11">
+  <!--begin::Form-->
+  <form class="form" novalidate="novalidate" method="POST" action="{% url 'login' %}" id="kt_login_signin_form">
+    {% csrf_token %}
+    <!--begin::Title-->
+    <div class="text-center pb-8">
+      <h2 class="font-weight-bolder text-dark font-size-h2 font-size-h1-lg">Ingresar</h2>
+      <span class="text-muted font-weight-bold font-size-h4">o
+        <a href="{% url 'register' %}" class="text-primary font-weight-bolder">Crear una
+          cuenta</a></span>
+    </div>
+    <!--end::Title-->
+    {% if form.errors %}
+    <div class="alert alert-danger" role="alert">
+      {{form.non_field_errors.as_text}}
+    </div>
+    {% endif %}
+    <!--begin::Form group-->
+    <div class="form-group">
+      <label class="font-size-h6 font-weight-bolder text-dark">Usuario</label>
+      <input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg" type="text" id="id_username"
+        name="username" autocomplete="off" placeholder="Usuario" />
+    </div>
+    <!--end::Form group-->
+    <!--begin::Form group-->
+    <div class="form-group">
+      <div class="d-flex justify-content-between mt-n5">
+        <label class="font-size-h6 font-weight-bolder text-dark pt-5">Contraseña</label>
+        <a href="{% url 'password_reset' %}"
+          class="text-primary font-size-h6 font-weight-bolder text-hover-primary pt-5">Olvidaste tu cuenta?</a>
+      </div>
+      <input class="form-control form-control-solid h-auto py-7 px-6 rounded-lg" type="password" id="id_password"
+        name="password" autocomplete="off" placeholder="*******" />
+    </div>
+    <!--end::Form group-->
+    <!--begin::Action-->
+    <div class="text-center pt-2">
+      <button id="kt_login_signin_submit"
+        class="btn btn-dark font-weight-bolder font-size-h6 px-8 py-4 my-3">Ingresar</button>
+    </div>
+    <!--end::Action-->
+  </form>
+  <!--end::Form-->
+</div>
+<!--end::Signin-->
+{% endblock %}
