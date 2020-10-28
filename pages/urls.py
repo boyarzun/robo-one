@@ -14,4 +14,13 @@ urlpatterns = [
     path("learn/", learn, name="learn"),
     path("faq/", faq, name="faq"),
     path("ranking/<int:id>/", ranking_list, name="ranking"),
+    path(
+        "ranking/results/1-robo-one-chile/",
+        ranking_results,
+    ),
+    path(
+        "ranking/results/1-robo-one-chile-iframe/",
+        ranking_first_robo_one_chile_iframe,
+        name="first_robo_one_chile_iframe",
+    ),
 ]

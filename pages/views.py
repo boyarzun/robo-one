@@ -67,3 +67,18 @@ def faq(request):
 def ranking_list(request, id):
 
     return render(request, "pages/ranking.html", {"head_title": "Ranking", "id": id})
+
+
+def ranking_results(request):
+
+    return render(
+        request, "pages/ranking/2020/1-robo-one-chile.html", {"head_title": "Ranking"}
+    )
+
+
+def ranking_first_robo_one_chile_iframe(request):
+    return render(
+        request,
+        "pages/ranking/2020/1-robo-one-chile-iframe.html",
+        {"head_title": "Ranking"},
+    )
