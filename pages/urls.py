@@ -13,4 +13,5 @@ urlpatterns = [
     path("about/", about, name="about"),
     path("learn/", learn, name="learn"),
     path("faq/", faq, name="faq"),
+    path("ranking/<int:id>/", ranking_list, name="ranking"),
 ]

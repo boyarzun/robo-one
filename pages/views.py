@@ -62,3 +62,8 @@ def learn(request):
 def faq(request):
 
     return render(request, "pages/faq.html", {"head_title": "Preguntas Frecuentes"})
+
+
+def ranking_list(request, id):
+
+    return render(request, "pages/ranking.html", {"head_title": "Ranking", "id": id})
