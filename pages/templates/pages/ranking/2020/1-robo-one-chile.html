@@ -16,26 +16,26 @@
 
     <div class="overlay overflow-hidden pe-n"><img src="{% static 'assets/front/assets/img/bg/bg_shape.png' %}" alt="Background shape"></div>
     <!-- Start Content Area -->
-
     <div class="content-section text-light pt-9" style="padding-bottom: 20px !important;">
       <section class="section section-l section-roadmap bg-theme tc-light" id="roadmap">
         <div class="container">
           <div class="section-head text-center wide-auto">
-            <h4 class="title title-xs title-light animated" data-animate="fadeInUp" data-delay=".1">Resultados del Torneo</h4>
-            <p>1° ROBO-ONE Chile</p>
+            <h6 class="title title-xs title-light animated" data-animate="fadeInUp" data-delay=".1">¡Resultados del Torneo!</h6>
+            <h2 class="title title-lg title-dark animated" data-animate="fadeInUp" data-delay=".2">1° ROBO-ONE Chile</h2>
+            <p class="animated" data-animate="fadeInUp" data-delay=".1">!Revive la batalla!</p>
+          </div>
+          <div class="nk-block nk-block-roadmap">
+            <div class="row justify-content-center">
+              <div class="col-xl-10">
+                <div class="embed-responsive embed-responsive-16by9">
+                  <iframe src="/ranking/results/1-robo-one-chile-iframe/" allowtransparency="true" width="450" height="350" frameBorder="0">
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      </div>
-
-
-        <div class="mx-auto">
-    <div class="text-light" style="display: flex; justify-content: center;">
-    <p align="center">
-        <iframe src="/ranking/results/1-robo-one-chile-iframe/" allowtransparency="true" width="450" height="350" frameBorder="0">
-        </p>
-    </div>
-        </div>
+    </div>  
     <!-- End Content Area -->
 
     {% include 'pages/structure/partners.html' %}
