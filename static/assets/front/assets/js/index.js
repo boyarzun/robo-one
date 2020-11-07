@@ -20,7 +20,7 @@ axios
                   </div>
                 </div>
                 <div class="col-lg-8">
-                  <h4 class="text-uppercase mb-3"><a href="/new.php?id=${element.id}">${element.title.rendered}</a></h4>
+                  <h4 class="text-uppercase mb-3"><a href="/news/${element.id}/">${element.title.rendered}</a></h4>
                   <div class="mb-3 small text-info">
                     <span><i class="fas fa-calendar-alt mr-1"></i> ${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}</span>
                   </div>
