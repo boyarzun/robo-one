@@ -7,7 +7,13 @@ urlpatterns = [
     path("home/", home, name="home"),
     path("", index, name="index"),
     path("robo-one/", robo_one, name="robo_one"),
+    path("robo-one/inscripcion/", robo_one_sign_up, name="robo_one_sign_up"),
     path("robo-one-light/", robo_one_light, name="robo_one_light"),
+    path(
+        "robo-one-light/inscripcion/",
+        robo_one_light_sign_up,
+        name="robo_one_light_sign_up",
+    ),
     path("news/", news, name="news"),
     path("news/<int:id>/", single_news, name="single_news"),
     path("about/", about, name="about"),

@@ -1,6 +1,6 @@
 # Django
 from django.http import request
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 # CCBV
 from django.views.generic import TemplateView
@@ -82,3 +82,11 @@ def ranking_first_robo_one_chile_iframe(request):
         "pages/ranking/2020/1-robo-one-chile-iframe.html",
         {"head_title": "Ranking"},
     )
+
+
+def robo_one_sign_up(request):
+    return redirect("https://forms.gle/zEfkzzDXaDvfmDuR7")
+
+
+def robo_one_light_sign_up(request):
+    return redirect("https://forms.gle/P73GS8LWVZPe8S7k6")
