@@ -28,17 +28,18 @@
                 <div class="product-body">
                   <!--Carousel Wrapper-->
                   <div id="new-image">
-                    
+                    <div class="loading-image-effect"><div class="line"></div></div>
                   </div>
                   <div class="alert alert-no-border alert-share d-flex mb-6" role="alert">
-                    <span class="mr-2" id="new-author"><i class="fas fa-user-alt mr-1"></i> </span>
-                    <span class="mr-2" id="new-date"><i class="fas fa-calendar-alt mr-1"></i> </span>
+                    <span class="mr-2" id="new-author"><i class="fas fa-user-alt mr-1"></i><div class="author-loading"><div class="line"></div></div> </span>
+                    <span class="mr-2" id="new-date"><i class="fas fa-calendar-alt mr-1"></i><div class="date-loading"><div class="line"></div></div> </span>
                   </div>
                   <!--/.Carousel Wrapper-->
                   <div id="about" class="about mb-5">
                     <hr class="border-secondary my-2">
                     <div>
                       <div id="new-content">
+                        {% include 'pages/structure/utils/loading-content-effect.html' %}
                       </div>
                     </div>
                   </div>

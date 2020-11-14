@@ -10,8 +10,8 @@ function renderSinglePost(fetchUrl) {
       var date = new Date(element.date)
       date = date.getDate().toString() + "-" + (date.getMonth() + 1).toString() + "-" + date.getFullYear().toString()
       document.getElementById('new-title').innerHTML = element.title.rendered
-      document.getElementById('new-author').innerHTML += 'Robo One'
-      document.getElementById('new-date').innerHTML += date;
+      document.getElementById('new-author').innerHTML = '<i class="fas fa-user-alt mr-1"></i>' + 'Robo One'
+      document.getElementById('new-date').innerHTML = '<i class="fas fa-calendar-alt mr-1"></i>' + date;
       document.getElementById('new-content').innerHTML = element.content.rendered
       document.getElementById('new-image').innerHTML = '<img src="' + element.jetpack_featured_media_url + '" width="100%" alt="Robo One">';
     });
