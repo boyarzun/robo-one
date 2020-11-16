@@ -184,14 +184,12 @@
 
   {% include 'pages/structure/scripts.html' %}
 
-  {% comment '' %}
   <script>
     var newId = {{id}}
     var fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts/' + newId;
 
     renderSinglePost(fetchUrl)
   </script>
-  {% endcomment %}
 
 
 {% endblock %}
