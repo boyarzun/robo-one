@@ -14,7 +14,9 @@
         <div class="row gutters-y">
           <div class="col-12 mt-9">
             <header>
-              <h3 class="product_name mb-4" id="new-title"></h3>
+              <h3 class="product_name mb-4" id="new-title">
+                <div class="title-loading"><div class="line"></div></div>
+              </h3>
             </header>
           </div>
           <div class="col-lg-8">
@@ -181,10 +183,15 @@
   <!-- /.contact -->
 
   {% include 'pages/structure/scripts.html' %}
+
+  {% comment '' %}
   <script>
     var newId = {{id}}
     var fetchUrl = 'https://dash.robo-one.la/wp-json/wp/v2/posts/' + newId;
 
     renderSinglePost(fetchUrl)
   </script>
+  {% endcomment %}
+
+
 {% endblock %}
