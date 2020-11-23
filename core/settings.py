@@ -165,3 +165,7 @@ RE_CAPTCHA_SECRET_KEY = os.getenv("RE_CAPTCHA_SECRET_KEY")
 APP_NAME = os.getenv("APP_NAME")
 
 X_FRAME_OPTIONS = "SAMEORIGIN"
+
+# Allow Youtube Videos (iFrame)
+# https://stackoverflow.com/questions/51424578/embed-youtube-code-is-not-working-in-html
+SECURE_REFERRER_POLICY = "no-referrer-when-downgrade"
