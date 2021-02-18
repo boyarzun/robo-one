@@ -21,6 +21,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     path("accounts/", include("registration.urls")),
     path("", include("pages.urls"), name="pages"),
+    path("contact/", include("contact.urls"), name="contact"),
 ]
 
 if settings.ADMIN_ENABLED is True:

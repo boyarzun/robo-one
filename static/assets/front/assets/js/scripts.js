@@ -302,12 +302,29 @@ NioApp = function (NioApp, $, window, document) {
 	return NioApp;
 }(NioApp, jQuery, window, document);
 
+function getCookie(name) {
+	var cookieValue = null;
+	if (document.cookie && document.cookie !== '') {
+		var cookies = document.cookie.split(';');
+		for (var i = 0; i < cookies.length; i++) {
+			var cookie = jQuery.trim(cookies[i]);
+			// Does this cookie string begin with the name we want?
+			if (cookie.substring(0, name.length + 1) === (name + '=')) {
+				cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+				break;
+			}
+		}
+	}
+	return cookieValue;
+}
+
 function sendContactForm(event) {
 	event.preventDefault();
 	const name = document.getElementById("contactName").value;
 	const email = document.getElementById("contactEmail").value;
 	const subject = document.getElementById("contactSubject").value;
 	const message = document.getElementById("contactMessage").value;
+	
 	const data = {
 		name,
 		email,
@@ -317,11 +334,12 @@ function sendContactForm(event) {
 
 	document.getElementById("contactForm").innerHTML = '<div class="text-center"><img src="/static/assets/front/assets/img/preloader.svg" /></div>'
 
-	fetch("https://hy4fbpvyb7.execute-api.us-east-1.amazonaws.com/prod/contact", {
+	fetch("/contact/send/", {
 		method: 'POST',
 		body: JSON.stringify(data),
 		headers: {
-			'Content-Type': 'application/x-www-form-urlencoded'
+			'Content-Type': 'application/x-www-form-urlencoded',
+			"X-CSRFToken": getCookie("csrftoken")
 		}
 	})
 		.then(function (response) {

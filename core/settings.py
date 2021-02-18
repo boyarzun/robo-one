@@ -58,6 +58,7 @@ INSTALLED_APPS = [
     "core.staticfiles.StaticFilesConfig",
     "registration",
     "pages",
+    "contact",
 ]
 
 if ADMIN_ENABLED is True:
