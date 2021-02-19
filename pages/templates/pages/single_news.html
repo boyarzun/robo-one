@@ -154,6 +154,7 @@
         </div>
         <div id="contactForm" class="modal-body">
           <form method="POST" onsubmit="sendContactForm(event)" class="input-transparent">
+          {% csrf_token %}
             <div class="form-row">
               <div class="form-group col-md-6">
                 <input class="form-control form-control-lg" id="contactName" type="text" name="name"

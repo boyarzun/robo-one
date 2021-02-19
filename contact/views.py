@@ -15,14 +15,10 @@ def send_email(request):
             subject=f"[Robo-One.la] - {subject}",
             body=f"{message}",
             from_email="contacto@robo-one.la",
-            to=[
-                "contacto@robo-one.la",
-            ],
+            to=["b.oyarzn@gmail.com"],
             reply_to=[email],
         )
 
         email.send(fail_silently=False)
-
-        print("*" * 10)
 
     return JsonResponse({"status": "ok"})
