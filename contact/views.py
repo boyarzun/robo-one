@@ -15,7 +15,7 @@ def send_email(request):
             subject=f"[Robo-One.la] - {subject}",
             body=f"{message}",
             from_email="contacto@robo-one.la",
-            to=["b.oyarzn@gmail.com"],
+            to=["rquevedo@roboticslab.cl"],
             reply_to=[email],
         )
 
