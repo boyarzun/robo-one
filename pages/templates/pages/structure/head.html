@@ -65,6 +65,21 @@
       #big-logos #biped-robot-asociation-big-logo:hover {
         background-color: hsl(0deg 0% 100% / 81%);
       }
+
+      .first-slide {
+        background-image: url({% static 'assets/front/assets/img/content/carousel/Robo-One-Latino-America-2021-01.jpg' %});
+        background-position: right top;
+      }
+
+
+      @media only screen and (max-width: 600px) {
+        .first-slide {
+          margin-top: 55px;
+          background-image: url({% static 'assets/front/assets/img/content/Robo-One-Latino-America-2021-x2-v2.jpg' %});
+          background-position: right top;
+        }
+
+      }
     </style>
 
   </head>
