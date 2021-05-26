@@ -85,8 +85,8 @@ def ranking_first_robo_one_chile_iframe(request):
 
 
 def robo_one_sign_up(request):
-    return redirect("https://forms.gle/zEfkzzDXaDvfmDuR7")
+    return redirect("https://forms.gle/XzhxBNDDqS3BiQRH9")
 
 
 def robo_one_light_sign_up(request):
-    return redirect("https://forms.gle/P73GS8LWVZPe8S7k6")
+    return redirect("https://forms.gle/XzhxBNDDqS3BiQRH9")
