@@ -191,31 +191,42 @@
 
       {% include 'pages/structure/partners.html'%}
 
-      {% comment %}
+      
       <section class="content-section text-light parallax-window position-relative" data-parallax="scroll"
       data-image-src="">
       <div class="overlay bg-dark_A-30 pe-n"></div>
       <div class="container">
         <div class="row gutters-y align-items-center">
-          <div class="col-lg-6 mb-4 mb-lg-0 ml-auto">
-            <div class="ar-4_3 bs-c bp-c br-n rounded"
-              style="background-image: url({% static 'assets/front/assets/img/content/duoc-uc-citt.jpg' %})"></div>
+          <div class="col-lg-6 mb-4 mb-lg-0 ml-auto p-7 pr-md-10">
+            <div>
+                <h3 class="text-center">Síguenos en redes sociales</h3>
+                <div class="row" style="display: flex; justify-content: space-between;">
+                
+                <div>
+                  <a class="social-facebook social-icon" class="nav-link" href="https://www.facebook.com/BipedRobotAssociation/" target="_blank" style="display: inline;"><i class="fab fa-facebook"></i> </a>
+                </div>
+                <div>
+                 <a class="social-instagram social-icon" href="https://www.instagram.com/robo_one_latinoamerica/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div>
+                  <a class="social-twitch social-icon" href="http://twitch.tv/robo_one_latino" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitch"></i></a>
+                </div>
+                <div>
+                  <a class="social-youtube social-icon" href="https://www.youtube.com/channel/UCJiQL7ihUT9UYMUnvp2C0qw/videos" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                </div>
+                </div>
+            </div>
           </div>
           <div class="col-lg-6 ml-lg--8 rounded bg-dark text-light shadow-lg-3 py-7 px-lg-7 py-lg-6">
-            <h3 class="mb-4">Duoc UC Citt</h3>
-            <hr class="w-10 border-top-2 my-6 my-xl-7 ml-0 border-warning">
-            <ul>
-              <li>La Escuela de Informática y Telecomunicaciones de DuocUC creó en 2010 su Centro de Innovación y Transferencia Tecnológica (CITT).</a></li>
-              <li>El centro nació con el objetivo de generar espacios y dinámicas abiertas que enriquezcan a la comunidad y generen formas más estrechas y profundas de vinculación con la industria y la sociedad en general.</li>
-            </ul>
-            <a href="https://www.duoc.cl/citt/" class="btn btn-sm btn-round btn-light mb-2 float-right"
-              target="_blank"><i class="fas fa-play-circle"></i> Ver Más</a>
+          <div class="ratio ratio-1x1">
+            <iframe  width="100%" height="260" src="https://www.youtube.com/embed/zX7egogL6lA?controls=0" title="Robo-One Latinoamérica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
     </section>
         
-    
+    {% comment %}
     <section class="content-section text-light parallax-window position-relative" data-parallax="scroll"
       data-image-src="" style="padding-top: 0px !important;">
       <div class="overlay bg-dark_A-30 pe-n"></div>
