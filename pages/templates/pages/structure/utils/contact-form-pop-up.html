@@ -1,0 +1,39 @@
+<!-- Contact -->
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="newTitle" aria-hidden="true">
+      <div class="modal-dialog modal-md modal-dialog-centered" role="document">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header border-secondary">
+            <h5 class="modal-title" id="newTitle">Contacto</h5>
+            <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div id="contactForm" class="modal-body">
+          <div class="col-12 alert alert-warning"><i
+                          class="fas fa-info"></i> <span>¿Eres nuevo y no sabes cómo participar? comunícate con el equipo de ROBO-ONE LATINOAMÉRICA</span> <a class="link-dark text-dark" href="https://wa.me/56962911781?text=¡Hola! Buen día. Me gustaría participar en la competencia de Robo-One LATINOAMÉRICA, soy nuevo, necesito ayuda. Espero tu respuesta. ¡Gracias!"><i class="fab fa-whatsapp text-success"></i> +56 9 6291 1781</a></div>
+                   </div>
+            <form method="POST" onsubmit="sendContactForm(event)" class="input-transparent col-12">
+            {% csrf_token %}
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input class="form-control form-control-lg" id="contactName" type="text" name="name" placeholder="Nombre" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <input class="form-control form-control-lg" id="contactEmail" type="email" name="email" placeholder="E-mail" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control border-secondary" id="contactSubject" name="subject" placeholder="Asunto" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg" id="contactMessage" rows="4" placeholder="Mensaje..." name="message" required></textarea>
+              </div>
+              <div class="form-group mt-6">
+                <button class="btn btn-block btn-warning" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.contact -->

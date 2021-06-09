@@ -145,45 +145,7 @@
     </main>
 
     {% include 'pages/structure/footer.html' %}
-
-
-  
-      <!-- Contact -->
-      <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="userLoginTitle" aria-hidden="true">
-        <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
-          <div class="modal-content bg-dark text-light">
-            <div class="modal-header border-secondary">
-              <h5 class="modal-title" id="userLoginTitle">Contacto</h5>
-              <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div id="contactForm" class="modal-body">
-              <form method="POST" onsubmit="sendContactForm(event)" class="input-transparent">
-              {% csrf_token %}
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <input class="form-control form-control-lg" id="contactName" type="text" name="name" placeholder="Nombre" required>
-                  </div>
-                  <div class="form-group col-md-6">
-                    <input class="form-control form-control-lg" id="contactEmail" type="email" name="email" placeholder="E-mail" required>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control border-secondary" id="contactSubject" name="subject" placeholder="Asunto" required>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control form-control-lg" id="contactMessage" rows="4" placeholder="Mensaje..." name="message" required></textarea>
-                </div>
-                <div class="form-group mt-6">
-                  <button class="btn btn-block btn-warning" type="submit">Enviar</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.contact -->
+    {% include 'pages/structure/utils/contact-form-pop-up.html' %}
 
     {% include 'pages/structure/scripts.html' %}
     <script src="{% static 'assets/front/assets/js/newsV3.js' %}"></script>
